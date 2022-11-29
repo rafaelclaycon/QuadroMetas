@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D9951E8D29358315004AD9A8 /* QuadroMetasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9951E8C29358315004AD9A8 /* QuadroMetasApp.swift */; };
-		D9951E8F29358315004AD9A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9951E8E29358315004AD9A8 /* ContentView.swift */; };
+		D9951E8F29358315004AD9A8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9951E8E29358315004AD9A8 /* MainView.swift */; };
 		D9951E9129358316004AD9A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9951E9029358316004AD9A8 /* Assets.xcassets */; };
 		D9951E9429358316004AD9A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9951E9329358316004AD9A8 /* Preview Assets.xcassets */; };
 		D9951E9E29358316004AD9A8 /* QuadroMetasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9951E9D29358316004AD9A8 /* QuadroMetasTests.swift */; };
@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		D9951E8929358315004AD9A8 /* QuadroMetas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuadroMetas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9951E8C29358315004AD9A8 /* QuadroMetasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadroMetasApp.swift; sourceTree = "<group>"; };
-		D9951E8E29358315004AD9A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9951E8E29358315004AD9A8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D9951E9029358316004AD9A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9951E9329358316004AD9A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9951E9929358316004AD9A8 /* QuadroMetasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuadroMetasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				D9951E8C29358315004AD9A8 /* QuadroMetasApp.swift */,
-				D9951E8E29358315004AD9A8 /* ContentView.swift */,
+				D9951E8E29358315004AD9A8 /* MainView.swift */,
 				D9951E9029358316004AD9A8 /* Assets.xcassets */,
 				D9951E9229358316004AD9A8 /* Preview Content */,
 			);
@@ -197,7 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9951E8F29358315004AD9A8 /* ContentView.swift in Sources */,
+				D9951E8F29358315004AD9A8 /* MainView.swift in Sources */,
 				D9951E8D29358315004AD9A8 /* QuadroMetasApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

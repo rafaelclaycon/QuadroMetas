@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct QuadroMetasApp: App {
+
     var body: some Scene {
         WindowGroup {
             MainView()
         }
     }
+
 }
